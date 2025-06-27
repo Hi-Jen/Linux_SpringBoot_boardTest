@@ -37,7 +37,7 @@ public class BoardController {
 	@Autowired
 	private EntityManager entityManager;
 	
-	// 윈도우
+	// 윈도우 1111
 	private static final String UPLOAD_DIR = "C:/upload/";
 	
 	@GetMapping("/boardfile")
