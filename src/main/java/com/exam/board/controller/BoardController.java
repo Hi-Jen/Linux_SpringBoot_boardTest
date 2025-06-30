@@ -46,10 +46,10 @@ public class BoardController {
 	private EntityManager entityManager;
 
 	// 윈도우 `111
-	// private static final String UPLOAD_DIR = "C:/upload/";
+	// private static final String UPLOAD_DIR = "C:/upload/"; // 윈도우 환경 업로드 경로
 
 	// 리눅스
-	private static final String UPLOAD_DIR = "/opt/tomcat9/upload/";
+	private static final String UPLOAD_DIR = "/opt/tomcat9/upload/"; // 리눅스 환경 업로드 경로
 
 	@GetMapping("/boardfile")
 	public String boardList(Model model) { // 여기 한번 수정
