@@ -27,7 +27,7 @@
         h2 {
             margin: 0;
             padding: 10px;
-            font-size: 2rem;
+            font-size: 3rem;
             text-align: center;
         }
         a {
