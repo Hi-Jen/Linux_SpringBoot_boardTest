@@ -8,9 +8,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>축하 메시지</title>
+    <title>Linux_SpringBoot</title>
     <style>
-        /* Apply a background image */
         body {
             background-image: url('https://i.pinimg.com/originals/b0/df/95/b0df95cfc6f31293d002d4d6daac253c.jpg');
             background-size: cover;
@@ -26,7 +25,6 @@
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
 
-        /* Container for the content */
         .content {
             text-align: center;
             background-color: rgba(0, 0, 0, 0.0);
@@ -60,9 +58,9 @@
 </head>
 <body>
     <div class="content">
-        <h2>리눅스 수업 듣느라 고생 많이 하셨습니다!</h2>
+        <h2>Hello World</h2>
         <a href="${path}/board/boardfile">게시판으로 가기</a>
-        <h2>안녕하세요, 좋은 하루 되세요!</h2>
+        <h2>리눅스 수업 듣느라 고생 많이 하셨습니다.</h2>
     </div>
 </body>
 </html>
