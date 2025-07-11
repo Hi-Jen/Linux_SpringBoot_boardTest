@@ -22,7 +22,7 @@
             align-items: center;
             font-family: 'Arial', sans-serif;
             color: white;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
         }
 
         .content {
