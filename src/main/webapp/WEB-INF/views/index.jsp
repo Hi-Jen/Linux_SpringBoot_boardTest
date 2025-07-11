@@ -26,6 +26,15 @@
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
         }
 
+        /* Container for the content */
+        .content {
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
         h2 {
             margin: 10px 0;
             font-size: 2.5rem;
@@ -51,7 +60,7 @@
     </style>
 </head>
 <body>
-    <div>
+    <div class="content">
         <h2>리눅스 수업 듣느라 고생 많이 하셨습니다!</h2>
         <a href="${path}/board/boardfile">게시판으로 가기</a>
         <h2>안녕하세요, 좋은 하루 되세요!</h2>
